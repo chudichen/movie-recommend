@@ -1,5 +1,6 @@
 package com.michael.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
@@ -19,6 +20,7 @@ public class AlsTab {
     @TableId("userid")
     private Integer userId;
 
+    @TableField("movieid")
     private Integer movieId;
 
     private Double rating;

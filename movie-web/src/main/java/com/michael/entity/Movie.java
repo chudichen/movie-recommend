@@ -1,5 +1,6 @@
 package com.michael.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
@@ -20,27 +21,36 @@ public class Movie {
     @TableId("movieid")
     private Integer movieId;
 
+    @TableField("moviename")
     private String movieName;
 
+    @TableField("showyear")
     private Date showYear;
 
+    @TableField("nation")
     private String nation;
 
+    @TableField("director")
     private String director;
 
+    @TableField("leadactors")
     private String leadActors;
 
     private String screenwriter;
 
     private String picture;
 
+    @TableField("averating")
     private Double aveRating;
 
+    @TableField("numrating")
     private Integer numRating;
 
     private String description;
 
+    @TableField("typelist")
     private String typeList;
 
+    @TableField("backpost")
     private String backPost;
 }

@@ -15,19 +15,6 @@ import org.apache.spark.{SparkConf, SparkContext}
 object RecommendForAllUser extends AppConf {
 
   def main(args: Array[String]): Unit = {
-    val jdbcURL = "jdbc:mysql://hadoop000:3306/movie?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT"
-    val alsTable = "movie.alsTab"
-    val recResultTable = "movie.similarTab"
-    val top5Table = "movie.top5Result"
-    val userTable= "movie.user"
-    val ratingTable= "movie.rating"
-    val mysqlusername = "root"
-    val mysqlpassword = "root"
-    val prop = new Properties
-    prop.put("driver", "com.mysql.jdbc.Driver")
-    prop.put("user", mysqlusername)
-    prop.put("password", mysqlpassword)
-
     val users = sqlContext.read.jdbc(jdbcURL, "user", prop).dropDuplicates(Seq("userid"))
     val allusers = users.rdd.map(_.getInt(0)).toLocalIterator
 

@@ -1,6 +1,7 @@
 package com.local.conf
 
 import java.io.File
+import java.util.Properties
 
 import com.local.utils.LoggerLevels
 import org.apache.hadoop.fs.FileSystem
@@ -30,4 +31,17 @@ trait AppConf {
   val sqlContext = new SQLContext(sc)
 
   val fs = FileSystem.get(sc.hadoopConfiguration)
+
+  val jdbcURL = "jdbc:mysql://hadoop000:3306/movie?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT"
+  val alsTable = "movie.alsTab"
+  val recResultTable = "movie.similartab"
+  val top5Table = "movie.top5result"
+  val userTable= "movie.user"
+  val ratingTable= "movie.rating"
+  val mysqlusername = "root"
+  val mysqlpassword = "root"
+  val prop = new Properties
+  prop.put("driver", "com.mysql.jdbc.Driver")
+  prop.put("user", mysqlusername)
+  prop.put("password", mysqlpassword)
 }
