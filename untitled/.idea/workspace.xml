@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2929740-7663-47be-a47f-bddb6d32390c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-spark/src/main/scala/com/local/caseclass/Result.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-spark/src/main/scala/com/local/ml/RecommendForAllUser.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-spark/src/main/scala/com/local/ml/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-web/src/main/java/com/michael/common/E3Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-web/src/main/java/com/michael/common/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-web/src/main/java/com/michael/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-web/src/main/java/com/michael/entity/AlsTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-web/src/main/java/com/michael/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-web/src/main/java/com/michael/mapper/AlsTabMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-web/src/main/java/com/michael/mapper/MovieMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-web/src/main/java/com/michael/po/AlsTabExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-web/src/main/java/com/michael/service/AlsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie-web/src/main/java/com/michael/service/impl/AlsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/movie-spark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-spark/movie-spark.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/META-INF/movie-spark.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/caseclass/Ratings$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/caseclass/Ratings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/caseclass/Result1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/caseclass/Result1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/caseclass/Result2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/caseclass/Result2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/caseclass/ShowMovie$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/caseclass/ShowMovie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/conf/AppConf$class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/conf/AppConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/RatingsETL$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/RatingsETL$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/RatingsETL$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/RatingsETL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/ShowMovieETL$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/ShowMovieETL$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/ShowMovieETL$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/ShowMovieETL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/TrainETL$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/TrainETL$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/TrainETL$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/TrainETL$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/etl/TrainETL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVD$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/ml/ModelTraining.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend2$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend2$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend2$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/rec/Recommend2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/utils/LoggerLevels$$anonfun$setStreamingLogLevels$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/utils/LoggerLevels$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/utils/LoggerLevels.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/utils/ResultsToFileUtils$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/utils/ResultsToFileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/utils/ToMySQLUtils$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-spark/target/classes/com/local/utils/ToMySQLUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-web/movie-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-web/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="28" />
+    <option name="y" value="41" />
+    <option name="width" value="1852" />
+    <option name="height" value="983" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/forexKnow" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.alibabacloud.intellij.config.AccountConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/test" value="3168675383338" />
+        <entry key="$PROJECT_DIR$/test/build.sbt" value="1858939500" />
+        <entry key="$PROJECT_DIR$/test/project/build.properties" value="1244562550" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/test" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2929740-7663-47be-a47f-bddb6d32390c" name="Default Changelist" comment="" />
+      <created>1584337691446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584337691446</updated>
+      <workItem from="1584337692805" duration="677000" />
+      <workItem from="1584339020370" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="728000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="sbt" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

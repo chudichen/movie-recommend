@@ -14,7 +14,12 @@
     <bytecodeTargetLevel>
       <module name="movie-manager" target="1.5" />
       <module name="movie-spark" target="1.8" />
-      <module name="movie-web" target="1.5" />
+      <module name="movie-web" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="movie-web" options="-parameters" />
+    </option>
   </component>
 </project>
