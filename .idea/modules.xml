@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/movie-manager/movie-manager.iml" filepath="$PROJECT_DIR$/movie-manager/movie-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-spark/movie-spark.iml" filepath="$PROJECT_DIR$/movie-spark/movie-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-web/movie-web.iml" filepath="$PROJECT_DIR$/movie-web/movie-web.iml" />
     </modules>
   </component>
 </project>

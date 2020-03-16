@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="movie-spark" />
         <module name="movie-manager" />
+        <module name="movie-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
