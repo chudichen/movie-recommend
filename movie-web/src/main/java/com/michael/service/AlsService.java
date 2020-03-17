@@ -10,5 +10,11 @@ import java.util.List;
  */
 public interface AlsService {
 
+    /**
+     * 通过用户id获取推荐
+     *
+     * @param userId
+     * @return
+     */
     List<Movie> selectAlsMoviesByUserId(Integer userId);
 }

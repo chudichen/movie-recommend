@@ -8,5 +8,11 @@ import com.michael.entity.RecTab;
  */
 public interface RecommendTabService {
 
+    /**
+     * 根据用户id获取推荐
+     *
+     * @param userId
+     * @return
+     */
     RecTab getRecTabByUserId(Integer userId);
 }
