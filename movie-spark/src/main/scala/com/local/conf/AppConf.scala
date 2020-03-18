@@ -7,6 +7,7 @@ import com.local.utils.LoggerLevels
 import org.apache.hadoop.fs.FileSystem
 import org.apache.spark._
 import org.apache.spark.sql._
+import org.apache.spark.sql.hive.HiveContext
 
 /**
   * 配置类
@@ -25,23 +26,24 @@ trait AppConf {
   //去除提示信息
   LoggerLevels.setStreamingLogLevels()
 
-  val conf = new SparkConf().setAppName("AppConf").setMaster("local[*]")
-  val sc = new SparkContext(conf)
-
-  val sqlContext = new SQLContext(sc)
-
-  val fs = FileSystem.get(sc.hadoopConfiguration)
-
+  // 配置信息
   val jdbcURL = "jdbc:mysql://hadoop000:3306/movie?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT"
   val alsTable = "movie.alsTab"
   val recResultTable = "movie.similartab"
   val top5Table = "movie.top5result"
   val userTable= "movie.user"
   val ratingTable= "movie.rating"
-  val mysqlusername = "root"
-  val mysqlpassword = "root"
+  val mysqlUsername = "root"
+  val mysqlPassword = "root"
   val prop = new Properties
-  prop.put("driver", "com.mysql.jdbc.Driver")
-  prop.put("user", mysqlusername)
-  prop.put("password", mysqlpassword)
+  prop.put("driver", "com.mysql.cj.jdbc.Driver")
+  prop.put("user", mysqlUsername)
+  prop.put("password", mysqlPassword)
+
+
+  val conf = new SparkConf().setAppName("AppConf").setMaster("local[*]")
+  val sc = new SparkContext(conf)
+  val hc = new HiveContext(sc)
+  val sqlContext = new SQLContext(sc)
+  val fs = FileSystem.get(sc.hadoopConfiguration)
 }
