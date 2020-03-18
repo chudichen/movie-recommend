@@ -21,12 +21,17 @@ import java.util.Date;
 @TableName("browse")
 public class Browse {
 
-    @TableId("browseid")
+    public static final String FIELD_BROWSE_ID = "browseid";
+    public static final String FIELD_USER_ID = "userid";
+    public static final String FIELD_MOVIE_IDS = "movieids";
+    public static final String FIELD_BROWSE_TIME = "browsetime";
+
+    @TableId(FIELD_BROWSE_ID)
     private Integer browseId;
-    @TableField("userid")
+    @TableField(FIELD_USER_ID)
     private Integer userId;
-    @TableField("movieids")
+    @TableField(FIELD_MOVIE_IDS)
     private String movieIds;
-    @TableField("browsetime")
+    @TableField(FIELD_BROWSE_TIME)
     private Date browseTime;
 }

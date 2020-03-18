@@ -2,7 +2,6 @@ package com.local.train
 
 import com.local.caseclass.ItemPref
 import com.local.conf.AppConf
-import org.apache.spark.sql.SaveMode
 
 /**
   * 根据ratings.txt，格式为(userId,movieId,rating)生成电影相似度表
@@ -15,7 +14,8 @@ object ItemCF extends AppConf {
   def main(args: Array[String]): Unit = {
     import sqlContext.implicits._
     // 2 读取样本数据
-    val data_path = "movie-spark/data/ratings.dat"
+//    val data_path = "movie-spark/data/ratings.dat"
+    val data_path = "movie-spark/data/temp"
     val data = sc.textFile(data_path, 8)
     val userdata = data.map(_.split("\t")).map(f => ItemPref(f(0), f(1), f(2).toDouble)).cache()
 

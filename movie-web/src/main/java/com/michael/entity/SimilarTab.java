@@ -21,10 +21,10 @@ public class SimilarTab {
     public static final String FIELD_ITEMID2 = "itemid2";
     public static final String FIELD_SIMILAR = "similar";
 
-    @TableId("itemid1")
+    @TableId(FIELD_ITEMID1)
     private Integer itemid1;
-    @TableField("itemid2")
+    @TableField(FIELD_ITEMID2)
     private Integer itemid2;
-    @TableField("similar")
+    @TableField(FIELD_SIMILAR)
     private Double similar;
 }

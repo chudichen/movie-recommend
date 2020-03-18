@@ -18,39 +18,30 @@ import java.util.Date;
 @Accessors(chain = true)
 @TableName("movie")
 public class Movie {
+
+    public static final String FIELD_MOVIE_NAME = "moviename";
+
     @TableId("movieid")
     private Integer movieId;
-
-    @TableField("moviename")
+    @TableField(FIELD_MOVIE_NAME)
     private String movieName;
-
     @TableField("showyear")
     private Date showYear;
-
     @TableField("nation")
     private String nation;
-
     @TableField("director")
     private String director;
-
     @TableField("leadactors")
     private String leadActors;
-
     private String screenwriter;
-
     private String picture;
-
     @TableField("averating")
     private Double aveRating;
-
     @TableField("numrating")
     private Integer numRating;
-
     private String description;
-
     @TableField("typelist")
     private String typeList;
-
     @TableField("backpost")
     private String backPost;
 }

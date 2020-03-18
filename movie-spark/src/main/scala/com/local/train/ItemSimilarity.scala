@@ -18,7 +18,7 @@ object ItemSimilarity {
     * @param user_rdd 用户评分
     *
     */
-  def CooccurrenceSimilarity(user_rdd: RDD[ItemPref]): (RDD[ItemSimi]) = {
+  def cooccurrenceSimilarity(user_rdd: RDD[ItemPref]): RDD[ItemSimi] = {
     // 0 数据做准备
     val user_rdd1 = user_rdd.map(f => (f.userId, f.itemId, f.pref))
     val user_rdd2 = user_rdd1.map(f => (f._1, f._2))
@@ -38,7 +38,7 @@ object ItemSimilarity {
       f._2._1._2, f._2._1._3, f._2._2)))
     val user_rdd10 = user_rdd9.join(user_rdd6.map(f => (f._1._1, f._2)))
     val user_rdd11 = user_rdd10.map(f => (f._2._1._1, f._2._1._2, f._2._1._3, f._2._1._4, f._2._2))
-    val user_rdd12 = user_rdd11.map(f => (f._1, f._2, (f._3 / sqrt(f._4 * f._5))))
+    val user_rdd12 = user_rdd11.map(f => (f._1, f._2, f._3 / sqrt(f._4 * f._5)))
     // 6 结果返回
     user_rdd12.map(f => ItemSimi(f._1, f._2, f._3))
   }
@@ -49,7 +49,7 @@ object ItemSimilarity {
     *
     * @param user_rdd 用户评分
     */
-  def CosineSimilarity(user_rdd: RDD[ItemPref]): (RDD[ItemSimi]) = {
+  def cosineSimilarity(user_rdd: RDD[ItemPref]): (RDD[ItemSimi]) = {
     // 0 数据做准备
     val user_rdd1 = user_rdd.map(f => (f.userId, f.itemId, f.pref))
     val user_rdd2 = user_rdd1.map(f => (f._1, (f._2, f._3)))
@@ -82,7 +82,7 @@ object ItemSimilarity {
     * @param user_rdd 用户评分
     *
     */
-  def EuclideanDistanceSimilarity(user_rdd: RDD[ItemPref]): (RDD[ItemSimi]) = {
+  def euclideanDistanceSimilarity(user_rdd: RDD[ItemPref]): (RDD[ItemSimi]) = {
     // 0 数据做准备
     val user_rdd1 = user_rdd.map(f => (f.userId, f.itemId, f.pref))
     val user_rdd2 = user_rdd1.map(f => (f._1, (f._2, f._3)))
@@ -111,16 +111,16 @@ object ItemSimilarity {
   */
 class ItemSimilarity extends Serializable {
 
-  def similarity(user_rdd: RDD[ItemPref], stype: String) : (RDD[ItemSimi]) = {
+  def similarity(user_rdd: RDD[ItemPref], stype: String) : RDD[ItemSimi] = {
     val similarity_rdd = stype match {
       case "cooccurrence" =>
-        ItemSimilarity.CooccurrenceSimilarity(user_rdd)
+        ItemSimilarity.cooccurrenceSimilarity(user_rdd)
       case "cosine" =>
-        ItemSimilarity.CosineSimilarity(user_rdd)
+        ItemSimilarity.cosineSimilarity(user_rdd)
       case "euclidean" =>
-        ItemSimilarity.EuclideanDistanceSimilarity(user_rdd)
+        ItemSimilarity.euclideanDistanceSimilarity(user_rdd)
       case _ =>
-        ItemSimilarity.CooccurrenceSimilarity(user_rdd)
+        ItemSimilarity.cooccurrenceSimilarity(user_rdd)
     }
     similarity_rdd
   }

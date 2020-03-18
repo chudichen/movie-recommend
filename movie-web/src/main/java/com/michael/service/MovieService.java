@@ -49,7 +49,7 @@ public interface MovieService {
      * @param movieId
      * @return
      */
-    int boolUserUnlikeMovie(int userId, String movieId);
+    boolean boolUserUnlikeMovie(int userId, String movieId);
 
     /**
      * 添加用户收藏电影

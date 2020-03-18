@@ -38,6 +38,8 @@ public class MovieServiceImplTest extends BaseTest {
 
     @Test
     public void boolUserUnlikeMovie() {
+        boolean result = movieService.boolUserUnlikeMovie(4, "356");
+        log.info("result is : {}", result);
     }
 
     @Test

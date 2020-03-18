@@ -2,6 +2,7 @@ package com.michael.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.michael.common.Result;
+import com.michael.entity.Browse;
 import com.michael.entity.Movie;
 import com.michael.entity.SimilarTab;
 import com.michael.entity.TopDefaultMovie;
@@ -10,11 +11,13 @@ import com.michael.mapper.MovieMapper;
 import com.michael.mapper.SimilarTabMapper;
 import com.michael.mapper.TopDefaultMovieMapper;
 import com.michael.service.MovieService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 /**
  * @author Michael Chu
@@ -76,8 +79,11 @@ public class MovieServiceImpl implements MovieService {
     }
 
     @Override
-    public int boolUserUnlikeMovie(int userId, String movieId) {
-        return 0;
+    public boolean boolUserUnlikeMovie(int userId, String movieId) {
+        QueryWrapper<Browse> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq(Browse.FIELD_USER_ID, userId);
+        queryWrapper.like(Browse.FIELD_MOVIE_IDS,"%,"+movieId+"%.");
+        return browseMapper.selectCount(queryWrapper) > 0;
     }
 
     @Override
@@ -87,16 +93,21 @@ public class MovieServiceImpl implements MovieService {
 
     @Override
     public Movie getMovieByMovieId(Integer id) {
-        return null;
+        return movieMapper.selectById(id);
     }
 
     @Override
     public List<Movie> selectMoviesByName(String movieName) {
-        return null;
+        return movieMapper.selectList(new QueryWrapper<Movie>().like(Movie.FIELD_MOVIE_NAME, "%" + movieName +"%"));
     }
 
     @Override
     public String select5SimilarMovies(int id) {
-        return null;
+        List<SimilarTab> similarTabs = similarTabMapper.selectList(new QueryWrapper<SimilarTab>()
+                .eq(SimilarTab.FIELD_ITEMID1, id)
+                .orderByDesc(SimilarTab.FIELD_SIMILAR)
+                .last(DEFAULT_LIMIT));
+        List<Integer> itemIds = similarTabs.stream().map(SimilarTab::getItemid2).collect(Collectors.toList());
+        return StringUtils.join(itemIds, ",");
     }
 }
